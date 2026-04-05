@@ -1,8 +1,8 @@
 class PdfKompakt < Formula
   desc "Interactive PDF compression tool"
   homepage "https://github.com/xronocode/kompakt"
-  url "https://github.com/xronocode/kompakt/archive/v1.0.0.tar.gz"
-  # sha256 "UPDATE_AFTER_RELEASE"
+  url "https://github.com/xronocode/kompakt/archive/v0.1.0.tar.gz"
+  sha256 "15358c6074d1acc67fdf080cbc80112c70515f2c9a8f38c69135727cd57ac735"
   license "MIT"
 
   depends_on "python@3.12"
@@ -10,7 +10,7 @@ class PdfKompakt < Formula
 
   resource "pypdf" do
     url "https://files.pythonhosted.org/packages/source/p/pypdf/pypdf-5.4.0.tar.gz"
-    # sha256 "UPDATE_WITH_ACTUAL_HASH"
+    sha256 "9af476a9dc30fcb137659b0dec747ea94aa954933c52cf02ee33e39a16fe9175"
   end
 
   def install
